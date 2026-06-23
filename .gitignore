@@ -1,0 +1,41 @@
+# Models (downloaded at runtime)
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Datasets (downloaded at runtime)
+datasets/
+
+# Training outputs
+gemma4-it-cybersec-lora-ms-single-gpu/
+gemma4-it-emotion-lora-ms-single-gpu/
+*-lora-*/
+*-checkpoint-*/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.uv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Reports
+threat_intel_report_*.md
+*.log
